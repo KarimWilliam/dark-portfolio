@@ -105,7 +105,7 @@ function HomePage() {
             </li>
             <li>A modern clean look for your website.</li>
             <li> Industry standard, Modular code.</li>
-            <li>To implement an existing website design.</li>
+            <li>To implement an existing or new website design.</li>
             <li>
               Moral or emotional support (this service is included free of
               charge)
