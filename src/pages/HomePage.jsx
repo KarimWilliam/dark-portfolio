@@ -6,7 +6,7 @@ import RightArrow from "../components/RightArrow.svg";
 function HomePage() {
   return (
     <div className="page-layout">
-      <h2 id="projects">Projects</h2>
+      <h2 id="projects">Sample Projects</h2>
       <div className="projects">
         {/* game reviews */}
         <div className=" ">
@@ -71,7 +71,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <h2 id="About">About </h2>
+      <h2 id="About">About Section</h2>
       <h3 className="big-text">
         Karim William
         <span style={{ fontWeight: "100" }}>
