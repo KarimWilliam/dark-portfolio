@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className="topnav">
         <div className="only-show-on-big-screens">
-          <img src={require("../images/rainbow.png")} alt="logo" />
+          <img src={require("../images/rainbow.avif")} alt="rainbow strip" />
         </div>
         <div>
           <a href="#projects">Projects</a>
@@ -14,7 +14,7 @@ function Header() {
           <a href="#Contact">Contact</a>
         </div>
       </div>
-      <img src={waveBanner}></img>
+      <img src={waveBanner} alt="destopian building banner"></img>
     </>
   );
 }

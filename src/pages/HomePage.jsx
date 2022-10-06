@@ -1,6 +1,6 @@
 import React from "react";
-import reviewImg from "../images/reviewsite.png";
-import commerceImg from "../images/commerce.png";
+import reviewImg from "../images/reviewsite.avif";
+import commerceImg from "../images/commerce.avif";
 import RightArrow from "../components/RightArrow.svg";
 
 function HomePage() {
@@ -16,7 +16,8 @@ function HomePage() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://dark-game-reviews.cyclic.app">
-              Dark Game reviews <img width={"20px"} src={RightArrow}></img>
+              Dark Game reviews{" "}
+              <img width={"20px"} src={RightArrow} alt="right arrow"></img>
             </a>
           </h3>
           <div className="review-project">
@@ -25,7 +26,11 @@ function HomePage() {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://dark-game-reviews.cyclic.app">
-                <img className="project-image" src={reviewImg}></img>
+                <img
+                  height={"300px"}
+                  className="project-image"
+                  src={reviewImg}
+                  alt="review site img"></img>
               </a>
             </div>
             <h4 className="centered" id="centered">
@@ -40,8 +45,10 @@ function HomePage() {
               className="title"
               rel="noopener noreferrer"
               target="_blank"
+              height={"300px"}
               href="https://dark-commerce.cyclic.app">
-              Dark E-Commerce <img width={"20px"} src={RightArrow}></img>
+              Dark E-Commerce{" "}
+              <img width={"20px"} src={RightArrow} alt="right arrow"></img>
             </a>
           </h3>
           <div className="review-project">
@@ -50,7 +57,10 @@ function HomePage() {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://dark-commerce.cyclic.app">
-                <img className="project-image" src={commerceImg}></img>
+                <img
+                  className="project-image"
+                  src={commerceImg}
+                  alt="commerce website image"></img>
               </a>
             </div>
             <h4 className="centered" id="centered">
@@ -60,13 +70,13 @@ function HomePage() {
         </div>
       </div>
       <h2 id="About">About </h2>
-      <h4 className="big-text">
+      <h3 className="big-text">
         Karim William
         <span style={{ fontWeight: "100" }}>
           {" "}
           - Web Developer Extraordinaire
         </span>
-      </h4>
+      </h3>
       <div className="about-container">
         <div className="about-elements">
           <h4>About Me</h4>
