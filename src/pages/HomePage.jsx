@@ -6,7 +6,7 @@ import RightArrow from "../components/RightArrow.svg";
 function HomePage() {
   return (
     <div className="page-layout">
-      <h2 id="projects">Sample Projects</h2>
+      <h2 id="projects">Sample Websites</h2>
       <div className="projects">
         {/* game reviews */}
         <div className=" ">
@@ -16,7 +16,7 @@ function HomePage() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://dark-game-reviews.cyclic.app">
-              Dark Game reviews{" "}
+              Dark Game Reviews{" "}
               <img width={"20px"} src={RightArrow} alt="right arrow"></img>
             </a>
           </h3>
