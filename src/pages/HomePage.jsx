@@ -27,7 +27,8 @@ function HomePage() {
                 target="_blank"
                 href="https://dark-game-reviews.cyclic.app">
                 <img
-                  height={"300px"}
+                  height="300"
+                  width="auto"
                   className="project-image"
                   src={reviewImg}
                   alt="review site img"></img>
@@ -45,7 +46,8 @@ function HomePage() {
               className="title"
               rel="noopener noreferrer"
               target="_blank"
-              height={"300px"}
+              height="300"
+              width="auto"
               href="https://dark-commerce.cyclic.app">
               Dark E-Commerce{" "}
               <img width={"20px"} src={RightArrow} alt="right arrow"></img>
@@ -60,7 +62,7 @@ function HomePage() {
                 <img
                   className="project-image"
                   src={commerceImg}
-                  alt="commerce website image"></img>
+                  alt="commerce website"></img>
               </a>
             </div>
             <h4 className="centered" id="centered">

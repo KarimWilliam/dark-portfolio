@@ -357,12 +357,17 @@ ul:hover{
       margin-right: 90px;
   }
 }
-
-
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
 
 
 @media screen and (max-width: 800px) { 
 
   .only-show-on-big-screens { display: none; }  
   
+  }
+
+  header{
+    min-height: 100vh;
   }
