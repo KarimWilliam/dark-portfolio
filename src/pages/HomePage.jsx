@@ -74,10 +74,7 @@ function HomePage() {
       <h2 id="About">About Section</h2>
       <h3 className="big-text">
         Karim William
-        <span style={{ fontWeight: "100" }}>
-          {" "}
-          - Web Developer Extraordinaire
-        </span>
+        <span style={{ fontWeight: "100" }}> - Web Developer</span>
       </h3>
       <div className="about-container">
         <div className="about-elements">
@@ -92,7 +89,7 @@ function HomePage() {
               easy to work with.{" "}
             </li>
             <li>
-              Hobbies include video games, cooking, fishing and working out.{" "}
+              Hobbies include video games, cooking, swimming and working out.{" "}
             </li>
           </ul>
         </div>
@@ -129,8 +126,8 @@ function HomePage() {
         </li>
         <li>
           <span className="fw-bold ">
-            I will professionally build your a website with up to date
-            technology and industry standard methodology.
+            I will professionally build you a website with up to date technology
+            and industry standard methodology.
             <br /> Contact me now... Or later whenever is convenient
           </span>
         </li>
