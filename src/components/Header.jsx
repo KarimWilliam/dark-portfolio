@@ -65,9 +65,9 @@ function Header() {
             }}>
             {currentColor ? "punkify " : "Dark "}
             {currentColor ? (
-              <img width={"15px"} src={sun}></img>
+              <img alt="sun" width={"15px"} src={sun}></img>
             ) : (
-              <img width={"15px"} src={moon}></img>
+              <img alt="moon" width={"15px"} src={moon}></img>
             )}
           </button>
         </div>

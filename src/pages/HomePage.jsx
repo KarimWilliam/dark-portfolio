@@ -1,7 +1,6 @@
 import React from "react";
 import reviewImg from "../images/reviewsite.avif";
 import commerceImg from "../images/commerce.avif";
-import RightArrow from "../components/RightArrow.svg";
 import RightArrow2 from "../components/RightArrow2.svg";
 
 function HomePage() {
