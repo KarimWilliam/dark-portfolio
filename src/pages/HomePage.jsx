@@ -16,7 +16,7 @@ function HomePage() {
           </h2>
           <p className="top-paragraph">
             My goal is to deliver you a ready-to-use website which will include
-            Tailored customizations, A modern clean look, as well as Industry
+            tailored customizations, A modern clean look, as well as Industry
             standard, modular code.{" "}
             <a
               style={{ textDecoration: "none", color: "#e5007d" }}
@@ -104,10 +104,6 @@ function HomePage() {
             <li>A modern clean look for your website.</li>
             <li> Industry standard, Modular code.</li>
             <li>To implement an existing or new website design.</li>
-            <li>
-              Moral or emotional support (this service is included free of
-              charge)
-            </li>
           </ul>
         </div>
         <div className="about-elements">

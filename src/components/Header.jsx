@@ -15,24 +15,25 @@ function Header() {
         "space-between"
       );
       document.documentElement.style.setProperty("--text-color", "#00000");
-      document.documentElement.style.setProperty("--yellow-color", "#f8ef02");
+      document.documentElement.style.setProperty("--yellow-color", "#e1d703");
       document.documentElement.style.setProperty("--cyan-color", "#00ffd2");
       document.documentElement.style.setProperty("--border-color", "black");
       document.documentElement.style.setProperty("--pink-color", "#e5007");
+      document.documentElement.style.setProperty("--border-color", "black");
       document.documentElement.style.setProperty(
         "--background-color",
         "#1b1b1b"
       );
     } else {
+      document.documentElement.style.setProperty("--border-color", "#9b9677");
       document.documentElement.style.setProperty("--nav-justify", "flex-end");
       document.documentElement.style.setProperty("--text-color", "#9b9677");
-      document.documentElement.style.setProperty("--yellow-color", "#202022");
+      document.documentElement.style.setProperty("--yellow-color", "#242526");
       document.documentElement.style.setProperty("--cyan-color", "#9b9677");
-      document.documentElement.style.setProperty("--border-color", "#9b9677");
       document.documentElement.style.setProperty("--pink-color", "#fffff");
       document.documentElement.style.setProperty(
         "--background-color",
-        "#333333"
+        "#18191a"
       );
     }
     setCurrentColor(!currentColor);
@@ -63,7 +64,7 @@ function Header() {
             onClick={() => {
               themeButtonClick();
             }}>
-            {currentColor ? "Punkify " : "Dark "}
+            {currentColor ? "Punkify " : "Dark Mode "}
             {currentColor ? (
               <img alt="sun" width={"15px"} src={sun}></img>
             ) : (
