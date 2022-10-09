@@ -63,7 +63,7 @@ function Header() {
             onClick={() => {
               themeButtonClick();
             }}>
-            {currentColor ? "punkify " : "Dark "}
+            {currentColor ? "Punkify " : "Dark "}
             {currentColor ? (
               <img alt="sun" width={"15px"} src={sun}></img>
             ) : (
