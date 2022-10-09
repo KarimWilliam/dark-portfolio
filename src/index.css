@@ -135,13 +135,14 @@ h5 {font-size: 1.2rem !important;}
 
 /* Add a black background color to the top navigation */
 .topnav {
-  max-height: 40px;
+  max-height: 41px;
   background-color:var(--cyan-color);
   overflow: hidden;
   display:flex;
   justify-content: flex-end;
   justify-content: var(--nav-justify);
   padding-right: 40px;
+  border-bottom: 1px solid grey !important;
 
 
 
