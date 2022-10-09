@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="title">
-      <p className="lead" style={{ color: "white" }}>
+      <p className="lead" style={{ color: "whitesmoke" }}>
         Copyright &copy; 2022 Almost Awesome Corp
       </p>
     </div>

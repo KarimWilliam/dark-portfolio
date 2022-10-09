@@ -2,14 +2,36 @@ import React from "react";
 import reviewImg from "../images/reviewsite.avif";
 import commerceImg from "../images/commerce.avif";
 import RightArrow from "../components/RightArrow.svg";
+import RightArrow2 from "../components/RightArrow2.svg";
 
 function HomePage() {
+  // document.documentElement.style.cssText = "--yellow-color: red";
+
   return (
     <div className="page-layout">
-      <h2 id="projects">Sample Websites</h2>
+      <div className="intro">
+        <div className="into">
+          <h2 className="myname" style={{ textDecoration: "none" }}>
+            Karim William{" "}
+            <span style={{ fontWeight: "100" }}> - Web Developer</span>
+          </h2>
+          <p className="top-paragraph">
+            My goal is to deliver you a ready-to-use website which will include
+            Tailored customizations, A modern clean look, as well as Industry
+            standard, modular code.{" "}
+            <a
+              style={{ textDecoration: "none", color: "#e5007d" }}
+              href="#Contact">
+              Contact me{" "}
+            </a>
+            to help you build a website fit for your personal or business needs.
+          </p>
+        </div>
+      </div>
+      <h3 id="projects">Sample Websites</h3>
       <div className="projects">
         {/* game reviews */}
-        <div className=" ">
+        <div>
           <h3 className="title">
             <a
               className="title"
@@ -17,7 +39,7 @@ function HomePage() {
               target="_blank"
               href="https://dark-game-reviews.cyclic.app">
               Dark Game Reviews{" "}
-              <img width={"20px"} src={RightArrow} alt="right arrow"></img>
+              <img width={"20px"} src={RightArrow2} alt="right arrow"></img>
             </a>
           </h3>
           <div className="review-project">
@@ -50,7 +72,7 @@ function HomePage() {
               width="auto"
               href="https://dark-commerce.cyclic.app">
               Dark E-Commerce{" "}
-              <img width={"20px"} src={RightArrow} alt="right arrow"></img>
+              <img width={"20px"} src={RightArrow2} alt="right arrow"></img>
             </a>
           </h3>
           <div className="review-project">
@@ -71,28 +93,8 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <h2 id="About">About Section</h2>
-      <h3 className="big-text">
-        Karim William
-        <span style={{ fontWeight: "100" }}> - Web Developer</span>
-      </h3>
+      <h3 id="About">About Section</h3>
       <div className="about-container">
-        <div className="about-elements">
-          <h4>About Me</h4>
-          <ul className="aboutme">
-            <li>
-              Graduated with a Computer Science &amp; Engineering degree from
-              the German university in Cairo.
-            </li>
-            <li>
-              My colleagues best describe me as… friendly, understanding and
-              easy to work with.{" "}
-            </li>
-            <li>
-              Hobbies include video games, cooking, swimming and working out.{" "}
-            </li>
-          </ul>
-        </div>
         <div className="about-elements">
           <h4>Contact me if you need...</h4>
           <ul>
@@ -109,8 +111,24 @@ function HomePage() {
             </li>
           </ul>
         </div>
+        <div className="about-elements">
+          <h4>About Me</h4>
+          <ul className="aboutme">
+            <li>
+              Graduated with a Computer Science &amp; Engineering degree from
+              the German university in Cairo.
+            </li>
+            <li>
+              My colleagues best describe me as… friendly, understanding and
+              easy to work with.{" "}
+            </li>
+            <li>
+              Hobbies include video games, cooking, swimming and working out.{" "}
+            </li>
+          </ul>
+        </div>
       </div>
-      <h2 id="Contact">Contact Info</h2>
+      <h3 id="Contact">Contact Info</h3>
       <ul className="bottom-ul">
         <li>
           <span className="fw-bold">FreeLancer: </span> Karim William
@@ -123,13 +141,6 @@ function HomePage() {
         </li>
         <li>
           <span className="fw-bold">Discord: </span> dark#3578
-        </li>
-        <li>
-          <span className="fw-bold ">
-            I will professionally build you a website with up to date technology
-            and industry standard methodology.
-            <br /> Contact me now... Or later whenever is convenient
-          </span>
         </li>
       </ul>
     </div>

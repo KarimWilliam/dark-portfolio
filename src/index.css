@@ -3,9 +3,13 @@ html {font-size: 100% !important;
  /* f8ef02   cyberpunk yellow*/
  /* cyberpunk cyan 00ffd2 */
  /* #dd42a0  cyberpunk pink */
---yellow-color: #f8ef02;
---cyan-color:#00ffd2;
---pink-color:#e5007d;
+--yellow-color: #202022;
+--cyan-color:#9b9677;
+--pink-color:#ffffff;
+--text-color:#9b9677;
+--background-color:#333333;
+--nav-justify:flex-end;
+--border-color:#9b9677;
 
 } /*16px*/
 main {
@@ -20,7 +24,8 @@ main {
 
 body {
   font-family: 'Play', sans-serif !important;
-background-color:#1b1b1b;
+background-color:var(--background-color);
+color: var(--text-color) !important;
 }
 
 
@@ -54,14 +59,15 @@ h2 {font-size: 2.074rem !important;
   }
 }
 
-h3 {font-size: 1.728rem !important;}
+h3 {font-size: 1.728rem !important;
+text-decoration: underline;}
 
 h4 {font-size: 1.44rem !important;}
 
 
 @media only screen and (max-width: 600px) {
   h4 {
-      font-size: 0.9rem !important
+      font-size: 1.2rem !important
   }
 }
 
@@ -129,10 +135,11 @@ h5 {font-size: 1.2rem !important;}
 /* Add a black background color to the top navigation */
 .topnav {
   max-height: 40px;
-  background-color:#00ffd2;
+  background-color:var(--cyan-color);
   overflow: hidden;
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  justify-content: var(--nav-justify);
   padding-right: 40px;
 
 
@@ -148,6 +155,22 @@ h5 {font-size: 1.2rem !important;}
   padding: 14px 16px;
   text-decoration: none;
   font-size: 15px;
+}
+
+.topnav button {
+  text-align: center;
+  padding: 14px 16px;
+  border-width: 1px;
+  border-top:none !important;
+  border-bottom:none !important;
+  background-color: var(--cyan-color);
+  font-size: 15px;
+}
+
+.topnav button:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+
 }
 
 /* Change the color of links on hover */
@@ -178,6 +201,7 @@ h5 {font-size: 1.2rem !important;}
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 20px;
+
 }
 
 .blur-card:hover{
@@ -236,10 +260,8 @@ h5 {font-size: 1.2rem !important;}
 
 
 .title {
-  color: black !important;
-  text-decoration: none;
-  
- 
+  color: var(--text-color) !important;
+  text-decoration: none; 
 text-align: center;
 }
 
@@ -284,15 +306,23 @@ flex-wrap: wrap;
 }
 
 #About{
-  border-top: 2px solid black;
-  padding-top: 30px;
 
+  border-top: 2px solid black;
+  padding-top: 50px;
+  border-color: var(--border-color);
 }
 #Contact{
   border-top: 2px solid black;
-  padding-top: 30px;
-
+  padding-top: 50px;
+  border-color: var(--border-color);
 }
+
+#projects{
+  border-top: 2px solid black;
+  padding-top: 50px;
+  border-color: var(--border-color);
+}
+
 
 .about-elements{
  display: flex;
@@ -370,3 +400,31 @@ img {
   header{
     min-height: 100vh;
   }
+
+  .intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  
+
+  .top-paragraph{
+    max-width: 550px;
+    font-size: 1.2rem !important;
+    margin-bottom: 70px;
+    padding: 15px;
+    text-align: justify;
+    border: 1px solid black;
+ 
+      
+      
+
+
+  }
+
+  .myname{
+font-size: 2.5rem !important;
+  }
+
