@@ -126,10 +126,15 @@ function HomePage() {
       <h3 id="Contact">Contact Info</h3>
       <ul className="bottom-ul">
         <li>
-          <span className="fw-bold">FreeLancer: </span> Karim William
+          <span className="fw-bold">Upwork: </span>
+          {"  "}
+          <a href="https://www.upwork.com/freelancers/~01a6ed113362861e00?viewMode=1">
+            Karim William
+          </a>
         </li>
         <li>
-          <span className="fw-bold">Fiverr: </span> darkarim
+          <span className="fw-bold">Fiverr: </span>
+          <a href="https://www.fiverr.com/share/GKBYz7"> darkarim</a>
         </li>
         <li>
           <span className="fw-bold">Email: </span> karim.william7@gmail.com
