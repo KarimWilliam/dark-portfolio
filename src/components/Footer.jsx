@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="title">
       <p className="lead" style={{ color: "whitesmoke" }}>
-        Copyright &copy; 2022 Almost Awesome Corp
+        Copyright &copy; 2022 Karim William
       </p>
     </div>
   );
