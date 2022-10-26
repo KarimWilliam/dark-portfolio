@@ -330,10 +330,7 @@ flex-wrap: wrap;
  display: flex;
  flex-direction: column;
  max-width:600px ;
-
-
-
-
+min-height: 270px;
 }
 
 .aboutme{
