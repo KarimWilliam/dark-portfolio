@@ -54,7 +54,7 @@ function Header() {
           </div>
         )}
 
-        <div>
+        <div className="nav-elements">
           <a href="#projects">Projects</a>
           <a href="#About">About</a>
           <a href="#Contact">Contact</a>

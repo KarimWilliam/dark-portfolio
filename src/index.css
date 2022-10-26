@@ -330,9 +330,14 @@ flex-wrap: wrap;
  display: flex;
  flex-direction: column;
  max-width:600px ;
-min-height: 270px;
 }
 
+.about-elements >ul{
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 .aboutme{
 
  flex-grow: 1;
@@ -377,6 +382,10 @@ ul:hover{
 
 .bottom-ul {
   max-width: 600px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -407,7 +416,9 @@ img {
 
   }
 
-  
+  .nav-elements{
+    padding-right: 50px;
+  }
 
   .top-paragraph{
     max-width: 550px;
@@ -417,10 +428,7 @@ img {
     text-align: justify;
     border: 1px solid black;
     border-color: var(--border-color)  !important;
- 
-      
-      
-
+    color: #858065;
 
   }
 
