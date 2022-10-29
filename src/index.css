@@ -428,7 +428,7 @@ img {
     text-align: justify;
     border: 1px solid black;
     border-color: var(--border-color)  !important;
-    color: #858065;
+color: --cyan-color
 
   }
 
